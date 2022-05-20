@@ -1,0 +1,27 @@
+@media (max-width :1020px){
+
+}
+@media(max-width :990px)
+ {
+     .text-content{
+         width: 100%;
+     }
+     .navigation-wrap .navbar-brand img {
+         height:4rem
+     }
+     .navigation-wrap{
+         text-align: center;
+         background-color: var(--white-color);
+     }
+     .navigation-wrap .nav-link{
+         line-height: 1.8rem;
+     }
+     .top-banner{
+         padding: 9.3rem  0 9.3rem ;
+     }
+ }
+
+   /* On smaller screens, decrease text size */
+   @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
